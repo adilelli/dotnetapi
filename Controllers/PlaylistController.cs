@@ -20,15 +20,20 @@ public class PlaylistController: Controller {
         return await _mongoDBService.GetAsync();
     }
 
+    [HttpGet("{id}")]
+    public async Task<List<Playlist>> Getid(string id) {
+        return await _mongoDBService.GetAsyncbyid(id);
+    }
+
     [HttpPost]
     public async Task<IActionResult> Post([FromBody] Playlist playlist) { 
         await _mongoDBService.CreateAsync(playlist);
         return CreatedAtAction(nameof(Get), new { id = playlist.Id }, playlist);}
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> AddToPlaylist(string id, [FromBody] string movieId) {
+    public async Task<IActionResult> AddToPlaylist(string id, [FromBody] string movieId,[FromBody] Playlist playlist) {
        await _mongoDBService.AddToPlaylistAsync(id, movieId);
-        return NoContent();
+       return Ok(playlist);
     }
 
     [HttpDelete("{id}")]
