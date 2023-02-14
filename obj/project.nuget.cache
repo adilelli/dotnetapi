@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S82F2Tv3luUkZb6SvqQ5mqAKDAVzA4bEYMgHthQf+rCh/QWgQpAYRsRYRMEcBC3Xrfq+lYI4FZTykLqJayffkw==",
+  "dgSpecHash": "rIUNfXhRKEWLLN8wOHsMma27ox2K2Ht2tPorXTwQPiyPQbolBno3SKt9HhqDkoiQXFVaQ3vO6lFg8wsVtJgFhg==",
   "success": true,
-  "projectFilePath": "/Users/adilelli/Desktop/csRest/MongoExample.csproj",
+  "projectFilePath": "/Users/adilelli/Desktop/metxrestcs/MongoExample.csproj",
   "expectedPackageFiles": [
     "/Users/adilelli/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
     "/Users/adilelli/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

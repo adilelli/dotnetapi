@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/adilelli/Desktop/csRest/MongoExample.csproj": {}
+    "/Users/adilelli/Desktop/metxrestcs/MongoExample.csproj": {}
   },
   "projects": {
-    "/Users/adilelli/Desktop/csRest/MongoExample.csproj": {
+    "/Users/adilelli/Desktop/metxrestcs/MongoExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adilelli/Desktop/csRest/MongoExample.csproj",
+        "projectUniqueName": "/Users/adilelli/Desktop/metxrestcs/MongoExample.csproj",
         "projectName": "MongoExample",
-        "projectPath": "/Users/adilelli/Desktop/csRest/MongoExample.csproj",
+        "projectPath": "/Users/adilelli/Desktop/metxrestcs/MongoExample.csproj",
         "packagesPath": "/Users/adilelli/.nuget/packages/",
-        "outputPath": "/Users/adilelli/Desktop/csRest/obj/",
+        "outputPath": "/Users/adilelli/Desktop/metxrestcs/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/adilelli/.nuget/NuGet/NuGet.Config"
